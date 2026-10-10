@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amapola Pastelería — Tortas y dulces artesanales</title>
+  <meta name="description" content="Tortas, cupcakes, mini pastelería y desayunos sorpresa hechos a mano. Armá tu pedido y envialo por WhatsApp.">
+  <meta name="theme-color" content="#FBF5EF">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Amapola Pastelería — Dulces hechos a mano">
+  <meta property="og:description" content="Armá tu pedido y envialo por WhatsApp.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,600;1,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="progress" id="progress" aria-hidden="true"></div>
+  <div class="aviso" id="aviso" hidden></div>
+  <header class="header">
+    <a href="#inicio" class="logo">Amapola<span>pastelería</span></a>
+    <nav class="nav" aria-label="Principal">
+      <a href="#catalogo">Catálogo</a><a href="#como-pedir">Cómo pedir</a><a href="#preguntas">Preguntas</a>
+    </nav>
+    <button class="cart-btn" id="cart-open" type="button" aria-label="Ver mi pedido">🛍 <b id="cart-count">0</b></button>
+  </header>
+
+  <main id="inicio">
+    <section class="hero">
+      <div class="blobs" aria-hidden="true"><i></i><i></i><i></i></div>
+      <span class="tag">Pastelería artesanal · Hecha en casa</span>
+      <h1>Dulces hechos a mano,<br><em>para tus mejores momentos.</em></h1>
+      <svg class="orn" viewBox="0 0 120 12" aria-hidden="true"><path d="M0 6h46M74 6h46" stroke="currentColor" stroke-width="1" fill="none"/><circle cx="60" cy="6" r="3.2" fill="none" stroke="currentColor"/><circle cx="51" cy="6" r="1.2" fill="currentColor"/><circle cx="69" cy="6" r="1.2" fill="currentColor"/></svg>
+      <p>Elegí tus productos, armá tu pedido y envialo por WhatsApp. Nosotras nos ocupamos del resto.</p>
+      <div class="hero-actions"><a href="#catalogo" class="btn">Ver catálogo</a><a href="#como-pedir" class="btn btn-ghost">Cómo pedir</a></div>
+    </section>
+
+    <div class="marquee" aria-hidden="true"><div><span>Hecho a mano</span><span>✿</span><span>Ingredientes reales</span><span>✿</span><span>Diseños a tu medida</span><span>✿</span><span>Pedidos con anticipación</span><span>✿</span><span>Cada detalle cuenta</span><span>✿</span><span>Hecho a mano</span><span>✿</span><span>Ingredientes reales</span><span>✿</span><span>Diseños a tu medida</span><span>✿</span><span>Pedidos con anticipación</span><span>✿</span><span>Cada detalle cuenta</span><span>✿</span></div></div>
+
+    <section class="catalogo" id="catalogo">
+      <div class="wrap">
+        <span class="tag">Catálogo</span>
+        <h2>Elegí tu antojo</h2>
+        <input class="search" id="search" type="search" placeholder="Buscar torta, cupcakes, galletas…" aria-label="Buscar productos">
+        <div class="chips" id="chips" role="tablist" aria-label="Categorías"></div>
+        <div class="chips chips-sub" id="subchips" aria-label="Subcategorías"></div>
+        <div class="grid" id="grid" aria-live="polite"><p class="loading">Cargando productos…</p></div>
+        <p class="nota">Precios "desde": el valor final se confirma por WhatsApp según tamaño y decoración.</p>
+      </div>
+    </section>
+
+    <section class="nosotras" id="nosotras">
+      <div class="wrap nos-grid">
+        <div><span class="tag">Nuestra forma de trabajar</span><h2>Hecho a mano, a tu medida</h2></div>
+        <p><b>Cada pedido es único.</b> Cocinamos en pequeñas tandas, con ingredientes de calidad y sin conservantes, y diseñamos la decoración junto con vos.</p>
+        <p><b>Todo coordinado.</b> Elegís la fecha, nos contás los detalles y confirmamos todo por WhatsApp, con seña para reservar tu día.</p>
+      </div>
+    </section>
+
+    <section class="resenas" id="resenas" hidden>
+      <div class="wrap">
+        <span class="tag">Opiniones</span>
+        <h2>Lo que dicen nuestros clientes</h2>
+        <div class="res-grid" id="res-grid"></div>
+        <p class="nota">Reseñas de ejemplo para esta demostración.</p>
+      </div>
+    </section>
+
+    <section class="pedir" id="como-pedir">
+      <div class="wrap">
+        <span class="tag">Cómo pedir</span>
+        <h2>Pedir es muy simple</h2>
+        <ol class="pasos">
+          <li><b>1</b><h3>Elegí</h3><p>Sumá tus productos al pedido desde el catálogo.</p></li>
+          <li><b>2</b><h3>Completá</h3><p>Elegí la fecha en el calendario y contanos los detalles de tu pedido.</p></li>
+          <li><b>3</b><h3>Enviá y coordinamos</h3><p>Tu pedido llega por WhatsApp y confirmamos precio, fecha, seña y entrega. Pedidos con <span id="anticipacion">72 horas</span> de anticipación.</p></li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="faq" id="preguntas">
+      <div class="wrap faq-wrap">
+        <span class="tag">Preguntas frecuentes</span>
+        <h2>Antes de pedir</h2>
+        <details><summary>¿Con cuánta anticipación debo pedir?</summary><p>Recomendamos hacerlo con 72 horas, y antes aún para fechas muy pedidas o eventos.</p></details>
+        <details><summary>¿Cómo pago?</summary><p>Se coordina por WhatsApp. Para reservar la fecha se pide una seña y el resto se abona al retirar o recibir.</p></details>
+        <details><summary>¿Hacen opciones sin TACC o sin lactosa?</summary><p>Consultanos por WhatsApp y vemos qué opciones podemos ofrecerte para tu pedido.</p></details>
+        <details><summary>¿Hacen entregas?</summary><p>Sí, coordinamos retiro o envío según tu zona al confirmar el pedido.</p></details>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span class="orn-wrap"><svg class="orn" viewBox="0 0 120 12" aria-hidden="true"><path d="M0 6h46M74 6h46" stroke="currentColor" stroke-width="1" fill="none"/><circle cx="60" cy="6" r="3.2" fill="none" stroke="currentColor"/><circle cx="51" cy="6" r="1.2" fill="currentColor"/><circle cx="69" cy="6" r="1.2" fill="currentColor"/></svg></span>
+    <p>© 2026 Amapola Pastelería. Sitio de demostración creado por <a href="https://cbstudioweb.com" target="_blank" rel="noopener noreferrer">CB Studio Web</a>.</p>
+    <a id="f-ig" class="ig" href="#" target="_blank" rel="noopener noreferrer" hidden>Seguinos en Instagram</a>
+    <a class="btn btn-ghost" href="https://wa.me/5493525632567?text=Hola%20CB%20Studio%20Web%2C%20vi%20la%20demo%20de%20la%20pasteler%C3%ADa%20y%20quiero%20una%20tienda%20as%C3%AD." target="_blank" rel="noopener noreferrer">¿Querés una tienda así? Hablemos →</a>
+  </footer>
+
+  <div class="overlay" id="overlay" hidden></div>
+  <aside class="drawer" id="drawer" hidden aria-label="Mi pedido">
+    <div class="drawer-head"><h3 id="drawer-title">Mi pedido</h3><button id="cart-close" type="button" aria-label="Cerrar">✕</button></div>
+    <div id="step-cart">
+      <ul id="cart-list" class="cart-list"></ul>
+      <p class="cart-total" id="cart-total"></p>
+      <button id="to-form" class="btn btn-full" type="button">Continuar con los datos →</button>
+      <button id="cart-clear" class="link-btn" type="button">Vaciar pedido</button>
+    </div>
+    <div id="step-form" hidden>
+      <label class="fl">Tu nombre *<input id="f-nombre" type="text" autocomplete="name" placeholder="Nombre y apellido"></label>
+      <div class="fl">Fecha de entrega o retiro *
+        <div class="cal" id="cal"></div>
+        <p class="cal-sel" id="cal-sel">Elegí un día disponible</p>
+      </div>
+      <label class="fl">Horario aproximado
+        <select id="f-hora"><option>Mañana (9 a 13 h)</option><option>Tarde (14 a 19 h)</option><option>Indistinto</option></select></label>
+      <div class="fl">¿Cómo lo recibís? *
+        <div class="radios"><label><input type="radio" name="modo" value="Retiro" checked> Retiro</label><label><input type="radio" name="modo" value="Envío"> Envío a domicilio</label></div>
+      </div>
+      <label class="fl" id="f-dir-wrap" hidden>Dirección y barrio *<input id="f-dir" type="text" placeholder="Calle, número, barrio"></label>
+      <label class="fl">Ocasión
+        <select id="f-ocasion"><option value="">Seleccionar</option><option>Cumpleaños</option><option>Casamiento</option><option>Bautismo o comunión</option><option>15 años</option><option>Regalo o desayuno</option><option>Otra</option></select></label>
+      <label class="fl">Cantidad de personas<input id="f-pers" type="number" min="1" inputmode="numeric" placeholder="Ej. 15"></label>
+      <label class="fl">Texto o dedicatoria en la torta<input id="f-ded" type="text" placeholder="Ej. Feliz cumple, Mateo"></label>
+      <label class="fl">Alergias o preferencias<input id="f-alerg" type="text" placeholder="Ej. sin TACC, sin lactosa"></label>
+      <label class="fl">Forma de pago preferida
+        <select id="f-pago"><option>Transferencia</option><option>Efectivo</option><option>A coordinar</option></select></label>
+      <label class="fl">Comentarios<textarea id="f-nota" rows="3" placeholder="Colores, sabores, referencias de decoración…"></textarea></label>
+      <p class="cart-total" id="form-total"></p>
+      <p class="form-err" id="form-err" role="alert"></p>
+      <a id="cart-send" class="btn btn-wa" href="#" target="_blank" rel="noopener noreferrer">Enviar pedido por WhatsApp</a>
+      <button id="to-cart" class="link-btn" type="button">← Volver al pedido</button>
+    </div>
+  </aside>
+  <button class="to-top" id="to-top" type="button" aria-label="Volver arriba" hidden>↑</button>
+  <button class="cart-bar" id="cart-bar" type="button" hidden></button>
+  <script src="script.js"></script>
+</body>
+</html>

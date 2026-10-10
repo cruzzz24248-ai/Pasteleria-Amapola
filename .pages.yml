@@ -1,0 +1,46 @@
+# Panel de edición (Pages CMS: app.pagescms.org). Permite cambiar productos y precios desde el celular.
+media: img
+content:
+  - name: catalogo
+    label: Catálogo y precios
+    type: file
+    path: productos.json
+    format: json
+    fields:
+      - name: whatsapp
+        label: WhatsApp para pedidos (con código de país, sin + ni espacios)
+        type: string
+      - name: anticipacion
+        label: Anticipación para pedidos (ej. 72 horas)
+        type: string
+      - { name: anticipacionDias, label: Días mínimos de anticipación para elegir fecha, type: number }
+      - { name: diasCerrados, label: "Días que no entregás (0=domingo, 1=lunes ... 6=sábado)", type: number, list: true }
+      - { name: fechasBloqueadas, label: "Fechas no disponibles (formato 2026-12-25)", type: string, list: true }
+      - { name: aviso, label: Aviso en la parte superior (dejalo vacío para ocultarlo), type: string }
+      - { name: instagram, label: Usuario de Instagram (sin @), type: string }
+      - { name: senaPorcentaje, label: Porcentaje de seña sugerida (ej. 30), type: number }
+      - name: testimonios
+        label: Opiniones de clientes
+        type: object
+        list: true
+        fields:
+          - { name: nombre, label: Nombre, type: string }
+          - { name: detalle, label: Detalle (ej. Cumpleaños de 5 años), type: string }
+          - { name: texto, label: Opinión, type: text }
+      - name: productos
+        label: Productos
+        type: object
+        list: true
+        fields:
+          - { name: nombre, label: Nombre, type: string }
+          - name: categoria
+            label: Categoría
+            type: select
+            options:
+              values: [Tortas, Cupcakes y galletas, Mini pastelería, Bandejas y cajas, Desayunos sorpresa, Panificados integrales, Eventos]
+          - { name: subcategoria, label: Subcategoría (ej. Fútbol, Infantiles), type: string }
+          - { name: descripcion, label: Descripción, type: text }
+          - { name: precio, label: Precio desde en pesos (0 = "Consultar"), type: number }
+          - { name: imagen, label: Foto, type: image }
+          - { name: disponible, label: Disponible, type: boolean, default: true }
+          - { name: destacado, label: Mostrar como favorita, type: boolean, default: false }
