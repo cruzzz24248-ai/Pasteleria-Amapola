@@ -1,301 +1,268 @@
 {
- "whatsapp": "5493525632567",
- "anticipacion": "72 horas",
- "anticipacionDias": 3,
- "diasCerrados": [
-  0
- ],
- "fechasBloqueadas": [],
- "productos": [
-  {
-   "nombre": "Chocotorta Premium",
-   "categoria": "Tortas",
-   "subcategoria": "Clásicas",
-   "descripcion": "Capas de chocolinas, dulce de leche y crema, con baño de chocolate.",
-   "precio": 30000,
-   "imagen": "",
-   "disponible": true,
-   "destacado": true
-  },
-  {
-   "nombre": "Torta Lila Clásica",
-   "categoria": "Tortas",
-   "subcategoria": "Clásicas",
-   "descripcion": "Bizcochuelo húmedo, relleno a elección y crema en tonos pastel. 12 a 15 porciones.",
-   "precio": 32000,
-   "imagen": "",
-   "disponible": true,
-   "destacado": false
-  },
-  {
-   "nombre": "Torta Frutilla y Crema",
-   "categoria": "Tortas",
-   "subcategoria": "Clásicas",
-   "descripcion": "Vainilla, crema chantilly y frutillas frescas de estación.",
-   "precio": 33000,
-   "imagen": "",
-   "disponible": true,
-   "destacado": false
-  },
-  {
-   "nombre": "Torta Oreo",
-   "categoria": "Tortas",
-   "subcategoria": "Clásicas",
-   "descripcion": "Crema de vainilla, galletitas Oreo y chorreado de chocolate.",
-   "precio": 35000,
-   "imagen": "",
-   "disponible": false,
-   "destacado": false
-  },
-  {
-   "nombre": "Torta Animalitos",
-   "categoria": "Tortas",
-   "subcategoria": "Infantiles",
-   "descripcion": "Granja o selva, con figuritas de pasta de azúcar hechas a mano.",
-   "precio": 38000,
-   "imagen": "",
-   "disponible": true,
-   "destacado": true
-  },
-  {
-   "nombre": "Torta Dinosaurios",
-   "categoria": "Tortas",
-   "subcategoria": "Infantiles",
-   "descripcion": "Colores verdes, huellitas y dinos modelados a mano.",
-   "precio": 38000,
-   "imagen": "",
-   "disponible": true,
-   "destacado": false
-  },
-  {
-   "nombre": "Torta Sirena",
-   "categoria": "Tortas",
-   "subcategoria": "Infantiles",
-   "descripcion": "Fondo marino con colas, estrellas de mar y perlas comestibles.",
-   "precio": 40000,
-   "imagen": "",
-   "disponible": true,
-   "destacado": false
-  },
-  {
-   "nombre": "Torta Camiseta",
-   "categoria": "Tortas",
-   "subcategoria": "Fútbol",
-   "descripcion": "Con los colores de tu equipo, nombre y número del festejado.",
-   "precio": 42000,
-   "imagen": "",
-   "disponible": true,
-   "destacado": true
-  },
-  {
-   "nombre": "Torta Cancha de Fútbol",
-   "categoria": "Tortas",
-   "subcategoria": "Fútbol",
-   "descripcion": "Césped de crema, arcos y jugadores de pasta de azúcar.",
-   "precio": 42000,
-   "imagen": "",
-   "disponible": true,
-   "destacado": false
-  },
-  {
-   "nombre": "Torta Pelota",
-   "categoria": "Tortas",
-   "subcategoria": "Fútbol",
-   "descripcion": "Redonda y decorada como pelota, ideal para fiestas infantiles.",
-   "precio": 36000,
-   "imagen": "",
-   "disponible": true,
-   "destacado": false
-  },
-  {
-   "nombre": "Torta Coquette",
-   "categoria": "Tortas",
-   "subcategoria": "Coquette y vintage",
-   "descripcion": "Moños, corazones y volados de crema. La favorita para cumpleaños.",
-   "precio": 36000,
-   "imagen": "",
-   "disponible": true,
-   "destacado": true
-  },
-  {
-   "nombre": "Vintage Cake",
-   "categoria": "Tortas",
-   "subcategoria": "Coquette y vintage",
-   "descripcion": "Estilo retro con bordes de manga y mensaje en el centro.",
-   "precio": 38000,
-   "imagen": "",
-   "disponible": true,
-   "destacado": false
-  },
-  {
-   "nombre": "Torta Margaritas",
-   "categoria": "Tortas",
-   "subcategoria": "Florales",
-   "descripcion": "Cobertura amarilla suave con margaritas de crema.",
-   "precio": 34000,
-   "imagen": "",
-   "disponible": true,
-   "destacado": false
-  },
-  {
-   "nombre": "Torta Floral Pastel",
-   "categoria": "Tortas",
-   "subcategoria": "Florales",
-   "descripcion": "Ramo de flores de crema en tonos pastel a elección.",
-   "precio": 36000,
-   "imagen": "",
-   "disponible": true,
-   "destacado": false
-  },
-  {
-   "nombre": "Combo Torta + Cupcakes",
-   "categoria": "Tortas",
-   "subcategoria": "Combos",
-   "descripcion": "Torta temática más 12 cupcakes a tono. El pack completo para tu festejo.",
-   "precio": 52000,
-   "imagen": "",
-   "disponible": true,
-   "destacado": true
-  },
-  {
-   "nombre": "Cupcakes personalizados (x12)",
-   "categoria": "Cupcakes y galletas",
-   "subcategoria": "Cupcakes",
-   "descripcion": "Vainilla o chocolate, decorados a tono con tu festejo.",
-   "precio": 18000,
-   "imagen": "",
-   "disponible": true,
-   "destacado": false
-  },
-  {
-   "nombre": "Galletas decoradas (x12)",
-   "categoria": "Cupcakes y galletas",
-   "subcategoria": "Galletas",
-   "descripcion": "Manteca y vainilla, decoradas una por una con glasé.",
-   "precio": 20000,
-   "imagen": "",
-   "disponible": true,
-   "destacado": false
-  },
-  {
-   "nombre": "Mini pastelería surtida (x24)",
-   "categoria": "Mini pastelería",
-   "subcategoria": "Surtida",
-   "descripcion": "Lemon pie, brownies, tartaletas y pavlovas en tamaño bocado.",
-   "precio": 28000,
-   "imagen": "",
-   "disponible": true,
-   "destacado": true
-  },
-  {
-   "nombre": "Pavlovas individuales (x12)",
-   "categoria": "Mini pastelería",
-   "subcategoria": "Surtida",
-   "descripcion": "Merengue crocante con crema y frutas.",
-   "precio": 24000,
-   "imagen": "",
-   "disponible": true,
-   "destacado": false
-  },
-  {
-   "nombre": "Caja matera",
-   "categoria": "Bandejas y cajas",
-   "subcategoria": "Cajas materas",
-   "descripcion": "Alfajores, rogel, cheesecake y bombones para compartir.",
-   "precio": 22000,
-   "imagen": "",
-   "disponible": true,
-   "destacado": false
-  },
-  {
-   "nombre": "Bandeja dulce para reuniones",
-   "categoria": "Bandejas y cajas",
-   "subcategoria": "Bandejas",
-   "descripcion": "Variedad de dulces para 8 a 10 personas.",
-   "precio": 26000,
-   "imagen": "",
-   "disponible": true,
-   "destacado": false
-  },
-  {
-   "nombre": "Desayuno sorpresa clásico",
-   "categoria": "Desayunos sorpresa",
-   "subcategoria": "",
-   "descripcion": "Taza, mini torta, facturas y un detalle personalizado.",
-   "precio": 24000,
-   "imagen": "",
-   "disponible": true,
-   "destacado": true
-  },
-  {
-   "nombre": "Desayuno de cumpleaños",
-   "categoria": "Desayunos sorpresa",
-   "subcategoria": "",
-   "descripcion": "Mini torta con velita, globos, dulces y tarjeta con dedicatoria.",
-   "precio": 28000,
-   "imagen": "",
-   "disponible": true,
-   "destacado": false
-  },
-  {
-   "nombre": "Pan integral de semillas",
-   "categoria": "Panificados integrales",
-   "subcategoria": "",
-   "descripcion": "Masa madre, harina integral y semillas. Sin conservantes.",
-   "precio": 6500,
-   "imagen": "",
-   "disponible": true,
-   "destacado": false
-  },
-  {
-   "nombre": "Pepas integrales (x30)",
-   "categoria": "Panificados integrales",
-   "subcategoria": "",
-   "descripcion": "Con dulce de membrillo y harina integral.",
-   "precio": 9000,
-   "imagen": "",
-   "disponible": true,
-   "destacado": false
-  },
-  {
-   "nombre": "Mesa dulce para 15 años",
-   "categoria": "Eventos",
-   "subcategoria": "Mesas dulces",
-   "descripcion": "Armamos el menú y el presupuesto con vos.",
-   "precio": 0,
-   "imagen": "",
-   "disponible": true,
-   "destacado": false
-  },
-  {
-   "nombre": "Torta de casamiento",
-   "categoria": "Eventos",
-   "subcategoria": "Casamientos",
-   "descripcion": "Diseño a medida, con prueba de sabores previa.",
-   "precio": 0,
-   "imagen": "",
-   "disponible": true,
-   "destacado": false
-  }
- ],
- "aviso": "Reservá con anticipación para fin de año: las fechas de diciembre se completan rápido.",
- "instagram": "",
- "senaPorcentaje": 30,
- "testimonios": [
-  {
-   "nombre": "Valentina",
-   "detalle": "Cumpleaños de 5 años",
-   "texto": "La torta quedó hermosa y estaba riquísima. Todo se coordinó por WhatsApp sin vueltas."
-  },
-  {
-   "nombre": "Martín",
-   "detalle": "Torta de fútbol",
-   "texto": "Mi hijo no podía creer lo parecida que era a su camiseta. Llegó puntual y perfecta."
-  },
-  {
-   "nombre": "Lucía",
-   "detalle": "Desayuno sorpresa",
-   "texto": "Un detalle precioso, con todo muy bien presentado. Se lo recomiendo a todos."
-  }
- ]
+  "whatsapp": "5493525632567",
+  "anticipacion": "48 horas",
+  "anticipacionDias": 3,
+  "diasCerrados": [
+    0
+  ],
+  "aviso": "Reservá con anticipación para fin de año: las fechas de diciembre se completan rápido.",
+  "senaPorcentaje": 30,
+  "testimonios": [
+    {
+      "nombre": "Valentina",
+      "detalle": "Cumpleaños de 5 años",
+      "texto": "La torta quedó hermosa y estaba riquísima. Todo se coordinó por WhatsApp sin vueltas."
+    },
+    {
+      "nombre": "Martín",
+      "detalle": "Torta de fútbol",
+      "texto": "Mi hijo no podía creer lo parecida que era a su camiseta. Llegó puntual y perfecta."
+    },
+    {
+      "nombre": "Lucía",
+      "detalle": "Desayuno sorpresa",
+      "texto": "Un detalle precioso, con todo muy bien presentado. Se lo recomiendo a todos."
+    }
+  ],
+  "productos": [
+    {
+      "nombre": "Chocotorta Premium",
+      "categoria": "Tortas",
+      "subcategoria": "Clásicas",
+      "descripcion": "Capas de chocolinas, dulce de leche y crema, con baño de chocolate.",
+      "precio": 30000,
+      "disponible": true,
+      "destacado": true
+    },
+    {
+      "nombre": "Torta Lila Clásica",
+      "categoria": "Tortas",
+      "subcategoria": "Clásicas",
+      "descripcion": "Bizcochuelo húmedo, relleno a elección y crema en tonos pastel. 12 a 15 porciones.",
+      "precio": 32000,
+      "disponible": true,
+      "destacado": false
+    },
+    {
+      "nombre": "Torta Frutilla y Crema",
+      "categoria": "Tortas",
+      "subcategoria": "Clásicas",
+      "descripcion": "Vainilla, crema chantilly y frutillas frescas de estación.",
+      "precio": 33000,
+      "disponible": true,
+      "destacado": false
+    },
+    {
+      "nombre": "Torta Oreo",
+      "categoria": "Tortas",
+      "subcategoria": "Clásicas",
+      "descripcion": "Crema de vainilla, galletitas Oreo y chorreado de chocolate.",
+      "precio": 35000,
+      "disponible": false,
+      "destacado": false
+    },
+    {
+      "nombre": "Torta Animalitos",
+      "categoria": "Tortas",
+      "subcategoria": "Infantiles",
+      "descripcion": "Granja o selva, con figuritas de pasta de azúcar hechas a mano.",
+      "precio": 38000,
+      "disponible": true,
+      "destacado": true
+    },
+    {
+      "nombre": "Torta Dinosaurios",
+      "categoria": "Tortas",
+      "subcategoria": "Infantiles",
+      "descripcion": "Colores verdes, huellitas y dinos modelados a mano.",
+      "precio": 38000,
+      "disponible": true,
+      "destacado": false
+    },
+    {
+      "nombre": "Torta Sirena",
+      "categoria": "Tortas",
+      "subcategoria": "Infantiles",
+      "descripcion": "Fondo marino con colas, estrellas de mar y perlas comestibles.",
+      "precio": 40000,
+      "disponible": true,
+      "destacado": false
+    },
+    {
+      "nombre": "Torta Camiseta",
+      "categoria": "Tortas",
+      "subcategoria": "Fútbol",
+      "descripcion": "Con los colores de tu equipo, nombre y número del festejado.",
+      "precio": 42000,
+      "disponible": true,
+      "destacado": true
+    },
+    {
+      "nombre": "Torta Cancha de Fútbol",
+      "categoria": "Tortas",
+      "subcategoria": "Fútbol",
+      "descripcion": "Césped de crema, arcos y jugadores de pasta de azúcar.",
+      "precio": 42000,
+      "disponible": true,
+      "destacado": false
+    },
+    {
+      "nombre": "Torta Pelota",
+      "categoria": "Tortas",
+      "subcategoria": "Fútbol",
+      "descripcion": "Redonda y decorada como pelota, ideal para fiestas infantiles.",
+      "precio": 36000,
+      "disponible": true,
+      "destacado": false
+    },
+    {
+      "nombre": "Torta Coquette",
+      "categoria": "Tortas",
+      "subcategoria": "Coquette y vintage",
+      "descripcion": "Moños, corazones y volados de crema. La favorita para cumpleaños.",
+      "precio": 36000,
+      "disponible": true,
+      "destacado": true
+    },
+    {
+      "nombre": "Vintage Cake",
+      "categoria": "Tortas",
+      "subcategoria": "Coquette y vintage",
+      "descripcion": "Estilo retro con bordes de manga y mensaje en el centro.",
+      "precio": 38000,
+      "disponible": true,
+      "destacado": false
+    },
+    {
+      "nombre": "Torta Margaritas",
+      "categoria": "Tortas",
+      "subcategoria": "Florales",
+      "descripcion": "Cobertura amarilla suave con margaritas de crema.",
+      "precio": 34000,
+      "disponible": true,
+      "destacado": false
+    },
+    {
+      "nombre": "Torta Floral Pastel",
+      "categoria": "Tortas",
+      "subcategoria": "Florales",
+      "descripcion": "Ramo de flores de crema en tonos pastel a elección.",
+      "precio": 36000,
+      "disponible": true,
+      "destacado": false
+    },
+    {
+      "nombre": "Combo Torta + Cupcakes",
+      "categoria": "Tortas",
+      "subcategoria": "Combos",
+      "descripcion": "Torta temática más 12 cupcakes a tono. El pack completo para tu festejo.",
+      "precio": 52000,
+      "disponible": true,
+      "destacado": true
+    },
+    {
+      "nombre": "Cupcakes personalizados (x12)",
+      "categoria": "Cupcakes y galletas",
+      "subcategoria": "Cupcakes",
+      "descripcion": "Vainilla o chocolate, decorados a tono con tu festejo.",
+      "precio": 18000,
+      "disponible": true,
+      "destacado": false
+    },
+    {
+      "nombre": "Galletas decoradas (x12)",
+      "categoria": "Cupcakes y galletas",
+      "subcategoria": "Galletas",
+      "descripcion": "Manteca y vainilla, decoradas una por una con glasé.",
+      "precio": 20000,
+      "disponible": true,
+      "destacado": false
+    },
+    {
+      "nombre": "Mini pastelería surtida (x24)",
+      "categoria": "Mini pastelería",
+      "subcategoria": "Surtida",
+      "descripcion": "Lemon pie, brownies, tartaletas y pavlovas en tamaño bocado.",
+      "precio": 28000,
+      "disponible": true,
+      "destacado": true
+    },
+    {
+      "nombre": "Pavlovas individuales (x12)",
+      "categoria": "Mini pastelería",
+      "subcategoria": "Surtida",
+      "descripcion": "Merengue crocante con crema y frutas.",
+      "precio": 24000,
+      "disponible": true,
+      "destacado": false
+    },
+    {
+      "nombre": "Caja matera",
+      "categoria": "Bandejas y cajas",
+      "subcategoria": "Cajas materas",
+      "descripcion": "Alfajores, rogel, cheesecake y bombones para compartir.",
+      "precio": 22000,
+      "disponible": true,
+      "destacado": false
+    },
+    {
+      "nombre": "Bandeja dulce para reuniones",
+      "categoria": "Bandejas y cajas",
+      "subcategoria": "Bandejas",
+      "descripcion": "Variedad de dulces para 8 a 10 personas.",
+      "precio": 26000,
+      "disponible": true,
+      "destacado": false
+    },
+    {
+      "nombre": "Desayuno sorpresa clásico",
+      "categoria": "Desayunos sorpresa",
+      "descripcion": "Taza, mini torta, facturas y un detalle personalizado.",
+      "precio": 24000,
+      "disponible": true,
+      "destacado": true
+    },
+    {
+      "nombre": "Desayuno de cumpleaños",
+      "categoria": "Desayunos sorpresa",
+      "descripcion": "Mini torta con velita, globos, dulces y tarjeta con dedicatoria.",
+      "precio": 28000,
+      "disponible": true,
+      "destacado": false
+    },
+    {
+      "nombre": "Pan integral de semillas",
+      "categoria": "Panificados integrales",
+      "descripcion": "Masa madre, harina integral y semillas. Sin conservantes.",
+      "precio": 6500,
+      "disponible": true,
+      "destacado": false
+    },
+    {
+      "nombre": "Pepas integrales (x30)",
+      "categoria": "Panificados integrales",
+      "descripcion": "Con dulce de membrillo y harina integral.",
+      "precio": 9000,
+      "disponible": true,
+      "destacado": false
+    },
+    {
+      "nombre": "Mesa dulce para 15 años",
+      "categoria": "Eventos",
+      "subcategoria": "Mesas dulces",
+      "descripcion": "Armamos el menú y el presupuesto con vos.",
+      "precio": 0,
+      "disponible": true,
+      "destacado": false
+    },
+    {
+      "nombre": "Torta de casamiento",
+      "categoria": "Eventos",
+      "subcategoria": "Casamientos",
+      "descripcion": "Diseño a medida, con prueba de sabores previa.",
+      "precio": 0,
+      "disponible": true,
+      "destacado": false
+    }
+  ]
 }
